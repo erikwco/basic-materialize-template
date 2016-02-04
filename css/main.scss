@@ -1,0 +1,42 @@
+// Color definitions
+$background:#fafafa;
+$background-darker:#f0f0f0;
+$background-darker-2:#eaeaea;
+
+// generics
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+html{
+  min-height: 100%;
+}
+
+body{
+  background-color: $background;
+  padding-bottom: 60px;
+  overflow:auto;
+}
+
+
+// header
+header{
+  height: 100px;
+  background-color: $background-darker;
+}
+
+// main
+main{
+  margin-bottom: 60px;
+}
+
+
+// footer
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: $background-darker-2;
+}
